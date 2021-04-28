@@ -11,7 +11,7 @@ public class main {
 
         a = a + b; // a nın değerini 3 yapıyoruz
         b = a - b; // (a+b)-b yaparak a'daki değeri b'ye atıyoruz
-        a = a - b; // a-(a-b) yaparak b'deki değeri a'ya atıyoruz
+        a = a - b; // (a+b)-a yaparak b'deki değeri a'ya atıyoruz
         
         System.out.println("replaced A:" + a + " " + "replaced B:" + b);
 
